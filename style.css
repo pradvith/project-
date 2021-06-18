@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    
+}
+h1{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+#apps{
+    width: 100%;
+    height: 800px;
+    background-color: chartreuse;
+}
+#games{
+    width: 100%;
+    height: 800px;
+    background-color: darkturquoise;
+}
+#chatbot{
+    width: 100%;
+    height: 800px;
+    background-color: darkblue;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.line{
+    height: 6px;
+    background-color: chartreuse;
+    width: 70px;
+    margin: 8px auto;
+}
